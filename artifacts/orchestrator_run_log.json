@@ -1,0 +1,28 @@
+{
+  "run_id": "phase5-20260326T191854Z",
+  "phase": "phase5-validation",
+  "timestamp_utc": "2026-03-26T19:18:54.837199+00:00",
+  "checks": [
+    {
+      "name": "npm run build",
+      "status": "pass",
+      "details": "> ravgentic-frontend@0.1.0 build\n> next build\n\n\u25b2 Next.js 16.2.1 (Turbopack)\n\n  Creating an optimized production build ...\n\u2713 Compiled successfully in 907ms\n  Running TypeScript ...\n  Finished TypeScript in 1024ms ...\n  Collecting page data using 7 workers ...\n  Generating static pages using 7 workers (0/6) ...\n  Generating static pages using 7 workers (1/6) \n  Generating static pages using 7 workers (2/6) \n  Generating static pages using 7 workers (4/6) \n\u2713 Generating static pages using 7 workers (6/6) in 239ms\n  Finalizing page optimization ...\n\nRoute (app)\n\u250c \u0192 /\n\u251c \u25cb /_not-found\n\u251c \u0192 /dashboard\n\u251c \u0192 /profile\n\u2514 \u0192 /settings\n\n\n\u25cb  (Static)   prerendered as static content\n\u0192  (Dynamic)  server-rendered on demand"
+    },
+    {
+      "name": "route file presence",
+      "status": "pass",
+      "details": "All core route files are present."
+    },
+    {
+      "name": "contract alignment",
+      "status": "pass",
+      "details": "All artifact endpoints are represented in frontend API contract."
+    },
+    {
+      "name": "backend integration",
+      "status": "pass",
+      "details": "All contract endpoints responded with expected keys."
+    }
+  ],
+  "overall_status": "pass"
+}

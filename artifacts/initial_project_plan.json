@@ -1,0 +1,28 @@
+{
+  "project_name": "ravgentic",
+  "frontend_framework": "nextjs",
+  "backend_mode": "mock-backend (backend server)",
+  "image_policy": "no image generation; use route-connected UI elements only",
+  "route_contract": {
+    "/": "GET /api/home",
+    "/dashboard": "GET /api/dashboard",
+    "/settings": "GET /api/settings",
+    "/profile": "GET /api/profile"
+  },
+  "suggested_components": [
+    "ThemeCollector",
+    "ContextEnvelopeBuilder",
+    "PlannerAgent",
+    "ArchitectAgent",
+    "BuildAgent.Scaffold",
+    "BuildAgent.UIImplementation",
+    "BuildAgent.DataClient",
+    "TestAgent.IntegrationCheck"
+  ],
+  "next_steps": [
+    "Scaffold frontend/ Next.js app",
+    "Create backend/ mock server routes",
+    "Create API contract map and frontend data client",
+    "Wire route-to-endpoint checks"
+  ]
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ravgenticUI - Agent Workflow</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ravgenticUI - Agent Workflow</h1>
+
+      <section class="card">
+        <h2>Start Workflow</h2>
+        <label class="field">
+          <div class="label">Desired UI themed prompt</div>
+          <textarea id="ui_prompt" rows="4" placeholder="e.g. Create a premium mystic flame inspired dashboard UI..."></textarea>
+        </label>
+
+        <div class="grid">
+          <label class="field">
+            <div class="label">Theme name</div>
+            <input id="theme_name" type="text" value="mystic-flame" />
+          </label>
+
+          <label class="field">
+            <div class="label">Reference template path (optional)</div>
+            <input id="reference_template_path" type="text" placeholder="/absolute/path/to/mystic-flake" />
+          </label>
+        </div>
+
+        <div class="grid">
+          <label class="field">
+            <div class="label">Style keywords (comma-separated, optional)</div>
+            <input id="style_keywords" type="text" placeholder="minimal,neon,glass" />
+          </label>
+
+          <label class="field">
+            <div class="label">Palette (comma-separated, optional)</div>
+            <input id="palette" type="text" placeholder="#0b1020,#ff4d6d,#f8fafc" />
+          </label>
+        </div>
+
+        <div class="actions">
+          <button id="startBtn" type="button">Start Workflow</button>
+        </div>
+      </section>
+
+      <section class="card" style="margin-top: 12px;">
+        <h2>Workflow Timeline</h2>
+        <div id="timeline" class="timeline"></div>
+      </section>
+
+      <section class="card" style="margin-top: 12px;">
+        <h2>Agent Response Logs</h2>
+        <div id="statusLine" class="statusLine"></div>
+        <pre id="logBox" class="logBox"></pre>
+      </section>
+
+      <section class="card" style="margin-top: 12px;">
+        <h2>Human Review</h2>
+        <div class="reviewRow">
+          <button id="approveBtn" type="button" disabled>Approve & Continue</button>
+          <button id="stopBtn" type="button" disabled>Stop</button>
+        </div>
+        <div id="reviewHint" class="hint"></div>
+      </section>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
+

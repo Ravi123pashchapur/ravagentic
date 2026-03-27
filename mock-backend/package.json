@@ -1,0 +1,18 @@
+{
+  "name": "mystic-flame-mock-backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Standalone Express mock API + WebSocket for local development",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "ws": "^8.20.0"
+  }
+}

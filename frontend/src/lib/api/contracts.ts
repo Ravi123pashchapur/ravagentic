@@ -1,0 +1,54 @@
+export type RoutePath = "/" | "/dashboard" | "/settings" | "/profile";
+
+export interface EndpointContract {
+  endpoint: string;
+  response_schema: Record<string, string>;
+  error_schema: Record<string, string>;
+}
+
+export const API_CONTRACT_MAP: Record<RoutePath, EndpointContract> = {
+  "/": {
+    endpoint: "GET /api/home",
+    response_schema: {
+      headline: "string",
+      highlights: "string[]"
+    },
+    error_schema: {
+      message: "string",
+      code: "string"
+    }
+  },
+  "/dashboard": {
+    endpoint: "GET /api/dashboard",
+    response_schema: {
+      stats: "object[]",
+      notifications: "object[]"
+    },
+    error_schema: {
+      message: "string",
+      code: "string"
+    }
+  },
+  "/settings": {
+    endpoint: "GET /api/settings",
+    response_schema: {
+      preferences: "object",
+      flags: "object"
+    },
+    error_schema: {
+      message: "string",
+      code: "string"
+    }
+  },
+  "/profile": {
+    endpoint: "GET /api/profile",
+    response_schema: {
+      user: "object",
+      activity: "object[]"
+    },
+    error_schema: {
+      message: "string",
+      code: "string"
+    }
+  }
+};

@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp_utc": "2026-03-26T21:25:18.010368+00:00",
+    "session_id": "run-20260326T212400Z",
+    "artifacts_dir": "/home/ravi/m2r2/test repo/artifacts/runs/20260326T212400Z",
+    "theme_name": "mystic-flame",
+    "validation_status": "pass",
+    "context_version": "v10"
+  },
+  {
+    "timestamp_utc": "2026-03-26T21:17:25.980733+00:00",
+    "session_id": "run-20260326T211604Z",
+    "artifacts_dir": "/home/ravi/m2r2/test repo/artifacts/runs/20260326T211604Z",
+    "theme_name": "mystic-flame",
+    "validation_status": "pass",
+    "context_version": "v10"
+  },
+  {
+    "timestamp_utc": "2026-03-26T21:13:35.887082+00:00",
+    "session_id": "run-20260326T211150Z",
+    "artifacts_dir": "/home/ravi/m2r2/test repo/artifacts/runs/20260326T211150Z",
+    "theme_name": "mystic-flame",
+    "validation_status": "pass",
+    "context_version": "v10"
+  },
+  {
+    "timestamp_utc": "2026-03-26T19:42:30.590837+00:00",
+    "session_id": "run-20260326T194226Z",
+    "artifacts_dir": "/home/ravi/m2r2/test repo/artifacts/runs/20260326T194226Z",
+    "theme_name": "mystic-flame",
+    "validation_status": "pass",
+    "context_version": "v10"
+  },
+  {
+    "timestamp_utc": "2026-03-26T19:40:27.078695+00:00",
+    "session_id": "run-20260326T194022Z",
+    "artifacts_dir": "/home/ravi/m2r2/test repo/artifacts/runs/20260326T194022Z",
+    "theme_name": "mystic-flame",
+    "validation_status": "pass",
+    "context_version": "v10"
+  },
+  {
+    "timestamp_utc": "2026-03-26T19:38:56.380643+00:00",
+    "session_id": "run-20260326T193852Z",
+    "artifacts_dir": "/home/ravi/m2r2/test repo/artifacts/runs/20260326T193852Z",
+    "theme_name": "mystic-flame",
+    "validation_status": "pass",
+    "context_version": "v10"
+  },
+  {
+    "timestamp_utc": "2026-03-26T19:35:22.806694+00:00",
+    "session_id": "run-20260326T193518Z",
+    "artifacts_dir": "/home/ravi/m2r2/test repo/artifacts/runs/20260326T193518Z",
+    "theme_name": "mystic-flame",
+    "validation_status": "pass",
+    "context_version": "v10"
+  },
+  {
+    "timestamp_utc": "2026-03-26T19:34:25.335514+00:00",
+    "session_id": "run-20260326T193420Z",
+    "artifacts_dir": "/home/ravi/m2r2/test repo/artifacts/runs/20260326T193420Z",
+    "theme_name": "mystic-flame",
+    "validation_status": "pass",
+    "context_version": "v10"
+  },
+  {
+    "timestamp_utc": "2026-03-26T19:33:18.290538+00:00",
+    "session_id": "run-20260326T193314Z",
+    "artifacts_dir": "/home/ravi/m2r2/test repo/artifacts/runs/20260326T193314Z",
+    "theme_name": "mystic-flame",
+    "validation_status": "pass",
+    "context_version": "v10"
+  },
+  {
+    "timestamp_utc": "2026-03-26T19:32:10.174863+00:00",
+    "session_id": "run-20260326T193206Z",
+    "artifacts_dir": "/home/ravi/m2r2/test repo/artifacts/runs/20260326T193206Z",
+    "theme_name": "mystic-flame",
+    "validation_status": "pass",
+    "context_version": "v10"
+  },
+  {
+    "timestamp_utc": "2026-03-26T19:29:30.957082+00:00",
+    "session_id": "run-20260326T192926Z",
+    "artifacts_dir": "/home/ravi/m2r2/test repo/artifacts/runs/20260326T192926Z",
+    "theme_name": "mystic-flame",
+    "validation_status": "pass",
+    "context_version": "v10"
+  },
+  {
+    "timestamp_utc": "2026-03-26T19:29:05.524577+00:00",
+    "session_id": "run-20260326T192901Z",
+    "artifacts_dir": "/home/ravi/m2r2/test repo/artifacts/runs/20260326T192901Z",
+    "theme_name": "mystic-flame",
+    "validation_status": "fail",
+    "context_version": "v10"
+  }
+]
